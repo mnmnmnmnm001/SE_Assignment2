@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="../../../../Downloads/WinformApp_Exercise1/WinformApp/Database.sql" />
+  </Folder>
   <Project Path="BLL/BLL.csproj" />
   <Project Path="DAL/DAL.csproj" />
   <Project Path="WebUI/WebUI.csproj" />
