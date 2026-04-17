@@ -1,9 +1,9 @@
 <Solution>
   <Folder Name="/Solution Items/">
-    <File Path="../../../../Downloads/WinformApp_Exercise1/WinformApp/Database.sql" />
+    <File Path="Database.sql" />
   </Folder>
   <Project Path="BLL/BLL.csproj" />
   <Project Path="DAL/DAL.csproj" />
-  <Project Path="WebUI/WebUI.csproj" />
-  <Project Path="WindowsFormsApp/UI.csproj" />
+  <Project Path="UI/UI.csproj" Id="13282651-7ef9-4888-abb6-ce41a4cc7087" />
+  <Project Path="WebUI/WebUI.csproj" Id="a92ab554-390a-458f-a71d-457f8c821c02" />
 </Solution>

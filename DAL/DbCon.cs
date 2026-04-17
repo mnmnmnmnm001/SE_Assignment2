@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Configuration;
 using System.Data.SqlClient;
+using System.Reflection;
 
 namespace WindowsFormsApp.DAL
 {
@@ -9,9 +11,12 @@ namespace WindowsFormsApp.DAL
         public DbSet<User> User { get; set; }
         public DbSet<Item> Item { get; set; }
         public DbSet<Agent> Agent { get; set; }
-        public DbSet<Order> Order { get; set; }
+        public DbSet<Order1> Order1 { get; set; }
         public DbSet<OrderDetail> OrderDetail { get; set; }
-        public DbCon() : base("name=Conn"){ }
+
+        // Use the options-based constructor required by EF Core
+        public DbCon(DbContextOptions<DbCon> options) : base(options) { }
+
 
         /*
         private static readonly string _connStr =

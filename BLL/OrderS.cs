@@ -14,21 +14,21 @@ namespace BLL
             _re = new OrderRepository();
         }
 
-        public void Add(Order a)
+        public void Add(Order1 a)
         {
             _re.Add(a);
         }
 
-        public Order GetByID(int id)
+        public Order1 GetByID(int id)
         {
             return _re.GetByID(id);
         }
-        public List<Order> GetAll()
+        public List<Order1> GetAll()
         {
             return _re.GetAll();
         }
 
-        public void Update(Order a)
+        public void Update(Order1 a)
         {
             _re.Update(a);
         }
