@@ -11,7 +11,6 @@ namespace WebUI
 {
     public partial class About : Page
     private readonly UserS _r = new UserS();
-    protected TextBox txtId;// AI add this to fix txtId not exist
 
     protected void Page_Load(object sender, EventArgs e)
     {
