@@ -15,10 +15,10 @@
             <asp:TextBox ID="txtDate" runat="server"></asp:TextBox><br/>
             <asp:Label ID="lblAgentId" runat="server" Text="Agent ID:"></asp:Label>
             <asp:TextBox ID="txtAgentId" runat="server"></asp:TextBox><br/>
-            <asp:Button ID="btnAdd" runat="server" Text="Add" /><br />
-            <asp:Button ID="btnGet" runat="server" Text="Get" /><br />
-            <asp:Button ID="btnUpdate" runat="server" Text="Update" /><br />
-            <asp:Button ID="btnDelete" runat="server" Text="Delete" /><br />
+            <asp:Button ID="btnAdd" runat="server" Text="Add" OnClick="btnAdd_Click" /><br />
+            <asp:Button ID="btnGet" runat="server" Text="Get" OnClick="btnGet_Click" /><br />
+            <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClick="btnUpdate_Click" /><br />
+            <asp:Button ID="btnDelete" runat="server" Text="Delete" OnClick="btnDelete_Click" /><br />
             <br /><br />
             <asp:GridView ID="gv" runat="server" AutoGenerateColumns="true"></asp:GridView>
             <asp:Button ID="btnBack" runat="server" Text="Back" OnClick="btnBack_Click" />

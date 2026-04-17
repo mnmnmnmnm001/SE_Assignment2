@@ -17,8 +17,8 @@
             <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox><br/>
             <asp:Label ID="lblPass" runat="server" Text="Password:"></asp:Label>
             <asp:TextBox ID="txtPass" runat="server"></asp:TextBox><br/>
-            <asp:Label ID="lblLock" runat="server" Text="Lock:"></asp:Label>
-            <asp:TextBox ID="r" runat="server"></asp:TextBox><br/>
+            <asp:Label ID="lblLock" runat="server" Text="Lock "></asp:Label>
+            <asp:Checkbox ID="CheckLock" runat="server"/>
             <asp:Button ID="btnAdd" runat="server" Text="Add" OnClick="btnAdd_Click" /><br />
             <asp:Button ID="btnGet" runat="server" Text="Get" OnClick="btnGet_Click" /><br />
             <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClick="btnUpdate_Click" /><br />

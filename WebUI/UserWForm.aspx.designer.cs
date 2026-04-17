@@ -105,13 +105,13 @@ namespace WebUI
         protected global::System.Web.UI.WebControls.Label lblLock;
 
         /// <summary>
-        /// r control.
+        /// CheckLock control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox r;
+        protected global::System.Web.UI.WebControls.CheckBox CheckLock;
 
         /// <summary>
         /// btnAdd control.

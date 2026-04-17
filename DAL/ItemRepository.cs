@@ -24,13 +24,10 @@ namespace WindowsFormsApp.DAL
         {
             return _con.Item.ToList();
         }
-
         public Item? GetByID(int id)
         {
             return _con.Item.FirstOrDefault(c => c.ItemID == id);
         }
-
-
         public void Update(Item a)
         {
             var b = _con.Item.FirstOrDefault(c => c.ItemID == a.ItemID);
@@ -42,7 +39,6 @@ namespace WindowsFormsApp.DAL
                 _con.SaveChanges();
             }
         }
-
         public void Delete(int id)
         {
             var a = _con.Item.FirstOrDefault(c => c.ItemID == id);
