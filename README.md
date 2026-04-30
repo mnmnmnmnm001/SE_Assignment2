@@ -1,5 +1,5 @@
-# SE Lab Assignment 2 – Exercise 1
-## WindowsFormsApp (3-Tier Architecture)
+# SE Lab Assignment 2
+## WindowsFormsApp (3-Tier Architecture) (Exercise 1)
 
 ## Setup Instructions
 ### 1. Database
